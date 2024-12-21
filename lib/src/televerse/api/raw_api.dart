@@ -2499,7 +2499,7 @@ class RawAPI {
       "parse_mode": parseMode?.value,
       "entities": entities?.map((e) => e.toJson()).toList(),
       "reply_markup": replyMarkup?.toJson(),
-      "link_preview": linkPreviewOptions?.toJson(),
+      "link_preview_options": linkPreviewOptions?.toJson(),
       "business_connection_id": businessConnectionId,
     };
 
